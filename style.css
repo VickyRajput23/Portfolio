@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+.main_box{
+    background: url("PortfolioImage.jpg");
+    height: 100vh;
+    background-size: cover;
+}
+
+.navigation-bar{
+    height: 60px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.nav-left-part{
+    width: 25%;
+    line-height: 50px;
+    color: white;
+    margin-left: 20px;
+}
+
+.nav-left-part h2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+
+
+.nav-right-part{
+    width: 80%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    line-height: 50px;
+    justify-content: space-evenly;
+    margin-left: 450px;
+    font-size: large;
+}
+
+.btn-outline-primary{
+    border: 0;
+    box-shadow: 5px  #2D2D2D;
+
+}
+
+.btn-outline-primary:hover{
+    border: 1px solid blue;
+    background-color:#FF004F;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+.btn-lg{
+    background-color:#303030;
+    border-color: #FF004F;
+}
+
+.btn-lg:hover{
+    background-color:#FF004F;
+}
+
+
+.myName{
+    height: 400px;
+    width: 600px;
+    position: absolute;
+    top: 200px;
+    right: 710px;
+    justify-content: flex-start;
+}
+
+
+.Hi{
+    font-family: "Kanit", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 40px;
+
+}
+ 
+.name{
+    font-family:"Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #FF004F;
+    font-size: 70px;
+}
+
+.iamDeveloper{
+
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+}
+
+.shortDescription{
+    color: white;
+    font-family: "Kanit", sans-serif;
+}
+
+.myImage img{
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+    position: relative;
+    left: 780px;
+    top: 50px;
+    box-shadow: 5px 10px 10px black;
+}
+
+.myImage img:hover{
+    box-shadow: 20px 30px 30px black;
+    transition: 0.5s;
+}
